@@ -1,0 +1,3 @@
+model	CER	WER
+stt_ca-es_conformer_transducer_large	0.010642581345178204	0.036251085019872994
+stt_es_conformer_ctc_large	0.3123646366221778	0.8043994700534515
