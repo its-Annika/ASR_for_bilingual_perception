@@ -7,14 +7,14 @@ Catalan vowels improves over the course of training, and (2) model perceptual tr
 given human behavioral data.
 
 ---
-#### The code can be broken down into stages (which should be run in the following order):
+#### The code can be broken down into stages (files should be run in the order given below):
 
-**Finetuning**
+**Finetuning:**
 - commonVoiceDataPrep.py: prepares Common Voice data for finetuning (results in the content of manifests dir)
 - process_asr_text_tokenizer.py: makes the new Catalan tokenizer (results in the content of tokenizer dir)
 - ASR_CTC_Language_Finetuning.py: conducts finetuning
 
-**Evaluation**
+**Evaluation:**
 - align.py: samples and force aligns evaluation data
 - getCER_andWER_models.py: finds model CER and WER on evaluation data
 - getCER_andWER_checkpoints.py: finds checkpoints' CER and WER on evalutation data
